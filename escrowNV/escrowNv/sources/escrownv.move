@@ -19,7 +19,7 @@ const EWrongTakerObj: u64 =2;
 const EAlreadyExchangedorCancelled: u64 = 3;
 
 public fun create<T: key + store, Taker_ObjT: key + store>(
-    taker: adderess, 
+    taker: address, 
     taker_obj: ID, 
     escrow_obj: T, 
     ctx: &mut TxContext
